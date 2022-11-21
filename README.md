@@ -10,6 +10,6 @@
 <li><a href="https://www.youtube.com/watch?v=nmOVv3VIHgc&t=7603s">Photon tutorial</a></li>
 <hr>
 <p><b>Contributers:</b></p>
-<li>@Humano0</li>
-<li></li>
+<li><a href="https://github.com/Humano0">@Humano0</a></li>
+<li><a href="https://github.com/MericTosun">@MericTosun</a></li>
 <li></li>
