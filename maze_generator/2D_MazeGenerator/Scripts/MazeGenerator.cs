@@ -1,3 +1,5 @@
+/*
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +11,7 @@ using UnityEngine;
         public int mazeColumns;
 
         // Cell Prefab
-        private GameObject cellPrefab;
+        public GameObject cellPrefab;
 
         //If you want only walls, set this true.
         public bool disableCellSprite;
@@ -293,3 +295,5 @@ using UnityEngine;
             public CellScript cScript;
         }
     }
+
+*/

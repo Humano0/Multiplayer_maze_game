@@ -334,6 +334,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftWall
       objectReference: {fileID: 0}
+    - target: {fileID: 4673880898020675801, guid: 2b17648d660752941b983f7956552a7e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673880898020675801, guid: 2b17648d660752941b983f7956552a7e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8330087225905519601, guid: 2b17648d660752941b983f7956552a7e, type: 3}
       propertyPath: m_RootOrder
       value: 2
