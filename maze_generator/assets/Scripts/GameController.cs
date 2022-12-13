@@ -13,8 +13,4 @@ public class GameController : MazeGenerator
         //Player.transform.Translate(Vector2.zero);
         // player -8.5  4.65
     }
-    void Update()
-    {
-        
-    }
 }

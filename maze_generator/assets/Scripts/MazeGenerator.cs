@@ -47,7 +47,7 @@ using UnityEngine;
             mazeRows = rows;
             mazeColumns = columns;
             CreateLayout();
-
+            makeBordersVisible();
             
             mazeParent.transform.localScale = new Vector3(1.186701f, 0.6019452f, 0);
             mazeParent.transform.Translate(new Vector3(1.4046f, 0.18f, 0));
@@ -264,11 +264,15 @@ using UnityEngine;
         public void InitValues()
         {
             // Check generation values to prevent generation failing.
-            if (IsOdd(mazeRows)) mazeRows--;
-            if (IsOdd(mazeColumns)) mazeColumns--;
+            if (IsOdd(mazeRows)) 
+                mazeRows--;
+            if (IsOdd(mazeColumns)) 
+                mazeColumns--;
 
-            if (mazeRows <= 3) mazeRows = 4;
-            if (mazeColumns <= 3) mazeColumns = 4;
+            if (mazeRows <= 3) 
+                mazeRows = 4;
+            if (mazeColumns <= 3) 
+                mazeColumns = 4;
 
             // Determine size of cell.
             cellSize = cellPrefab.transform.localScale.x;
@@ -290,4 +294,13 @@ using UnityEngine;
             public GameObject cellObject;
             public CellScript cScript;
         }
-    }
+
+        public void makeBordersVisible()
+        {
+            //Dictionary<Vector2, Cell> allCells
+            foreach(KeyValuePair<Vector2, Cell> cell in allCells)
+            {
+                print(cell.Key + "/n" + cell.Value);
+            }
+        }
+}
